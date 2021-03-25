@@ -18,66 +18,68 @@
             <!-- center-container -->
             <div class="center-container clearfix">
 
-                <!-- heder-nav -->
-                <div class="header-nav ">
-                
-                    <!-- logo -->
-                    <div class="logo float-left">
-                        <img src="img/logo.svg" alt="">
-                    </div>
-                    <!-- /logo -->
-
-                    <!-- nav-left -->
-                    <div class="nav-left float-left">
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#">il metodo</a>
-                            </li>
+                <div>
+                    <!-- heder-nav -->
+                    <div class="header-nav">
                     
-                            <li>
-                                <a href="#">la tecnologia</a>
-                            </li>
-                    
-                            <li>
-                                <a href="#">real-life english</a>
-                            </li>
-                    
-                            <li>
-                                <a href="#">soluzioni aziendali</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- /nav-left -->
-
-                    <!-- nav-right -->
-                    <div class="nav-right float-left">
-                        <ul class="list-inline">
-                        <li>
-                            <a href="#">diventa un tutor</a>
-                        </li>
-                    
-                        <li >
-                            <a class="btn btn-blue active" href="#">login</a>
-                        </li>
-                    
-                        <li>
-                            <a class="btn btn-green active1" href="#">struttura un piano</a>
-                        </li>
-                        </ul>
-                    </div>
-                    <!-- /nav-right -->
-
-                    <!-- jumbotron -->
-                    <div class="jumbotron w50">
-                        <div class=jumbotron-text>
-                            <h1>Scegli l'inglese studiato per i professionisti</h1>
-                            <a class="btn btn-lg btn-green" href="#">Struttura un piano</a>
+                        <!-- logo -->
+                        <div class="logo point float-left">
+                            <img src="img/logo.svg" alt="">
                         </div>
+                        <!-- /logo -->
+    
+                        <!-- nav-left -->
+                        <div class="nav-left float-left">
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="#">il metodo</a>
+                                </li>
+                        
+                                <li>
+                                    <a href="#">la tecnologia</a>
+                                </li>
+                        
+                                <li>
+                                    <a href="#">real-life english</a>
+                                </li>
+                        
+                                <li>
+                                    <a href="#">soluzioni aziendali</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /nav-left -->
+    
+                        <!-- nav-right -->
+                        <div class="nav-right float-left">
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="#">diventa un tutor</a>
+                                </li>
+                            
+                                <li >
+                                    <a class="btn btn-blue active" href="#">login</a>
+                                </li>
+                            
+                                <li>
+                                    <a class="btn btn-green active1" href="#">struttura un piano</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /nav-right -->
+    
                     </div>
-                    <!-- /jumbotron -->
-
+                    <!-- /heder-nav -->
+                 
                 </div>
-                <!-- /heder-nav -->
+                <!-- jumbotron -->
+                <div class="jumbotron w50">
+                    <div class=jumbotron-text>
+                        <h1>Scegli l'inglese studiato per i professionisti</h1>
+                        <a class="btn btn-lg btn-green active1" href="#">Struttura un piano</a>
+                    </div>
+                </div>
+                <!-- /jumbotron -->
 
             </div>
             <!-- /center-container -->
@@ -87,7 +89,6 @@
 
         <!-- main -->
 
-            
         <main>
             <!-- grey-space -->
             <div class="grey-space">
@@ -145,21 +146,61 @@
             <div class="center-container clearfix">
                 <img class="card2 float-left" src="img/mountain.svg" alt="mountaign">
                 <div class=" card2 float-left">
-                    <h3 class="ta-left p mb-20">
+                    <h3 class="ta-left mb-20 w85 txt-section2">
                         Scopri il tuo livello iniziale e struttura un piano personalizzato
                     </h3>
-                    <p class="txt-grey ta-left c mb-20">
+                    <p class="txt-grey ta-left c mb-20 w85 txt-section2">
                         L'esperienza di fluentify parte sempre da un test di placement per avere una chiara visione del tuo inglese, ad oggi.
                     </p>
-                    <a class="" href="#">Scopri il nostro test di placement</a>
+                    <a class="txt-link .txt-section2" href="#">Scopri il nostro test di placement</a>
                 </div>
             </div>
         </section>
         <!-- section2 -->
 
-        </main>
-        <!--/ main -->
-        
+    </main>
+    <!--/ main -->
+    
+    <!-- footer -->
+    <footer class="grey-space pt-50">
+        <div class="center-container">
+            <div class="nav-left float-left">
+                <ul class="list-inline">
+                    <li>
+                        <h3 class="txt-section2">Seleziona un piano</h3>
+                    </li>
+                </ul>
+            </div>
+            <!-- /nav-left -->
+
+            <!-- nav-right -->
+            <div class="nav-right float-left">
+                <ul class="list-inline">
+                    <li>
+                        <form action="url" method="get">
+                            <label for="level">Sono</label>
+                            <select class="point" name="Seleziona il tuo livello">
+                                <option>Seleziona il tuo livello</option>
+                                <option value="A1">Livello A1</option>
+                                <option value="A2">Livello A2</option>
+                                <option value="A3">Livello A3</option>
+                                <option value="B1">Livello B1</option>
+                                <option value="B2">Livello B2</option>
+                                <option value="B3">Livello B3</option>
+                                <option value="C1">Livello C1</option>
+                                <option value="C2">Livello C2</option>
+                            </select>
+                        </form>
+                    </li>
+            
+                    <li>
+                        <input class=" point btn btn-sm btn-green active1" type="submit" value="visualizza il tuo piano">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
 
     </body>
 </html>
