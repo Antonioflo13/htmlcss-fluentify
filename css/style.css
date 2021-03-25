@@ -85,7 +85,7 @@ ul :hover .active1 {
 }
 
 .mb-20 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .mb-40 {
@@ -126,8 +126,20 @@ p {
 }
 
 /* body */
+
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.help {
+    position: fixed;
+    right: 10%;
+    bottom: 7%;
+    border-radius: 50%;
+    padding: 15px 18px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZpW0hb4xONmpO3X6jymLOQcu4WJzCjLmmoA&usqp=CAU);
+    background-size: 170%;
+    background-position: center;
 }
 
 .center-container {
@@ -209,15 +221,15 @@ a {
 }
 
 .img1 {
-   width: 100px; 
+   width: 100px;
 }
 
 .img2 {
-    width: 173px; 
+    width: 173px;
 }
 
 .img3 {
-    width: 122px; 
+    width: 122px;
 }
 
 .card > hr {
